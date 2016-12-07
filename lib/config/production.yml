@@ -1,0 +1,17 @@
+# Application url
+:app_url: https://staging.getgrover.com
+
+:debug: false
+
+# Capybara configuration
+:wait_time: 20
+:default_selector: :css
+:run_server: false
+:ignore_hidden_elements: true
+:match: :prefer_exact
+:default_driver: :selenium
+:javascript_driver: :selenium
+:browser: :chrome
+
+# Site Prism configuration
+:implicit_waits_status: false
